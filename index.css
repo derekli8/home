@@ -1,0 +1,157 @@
+/*makes the body have a margin and padding of 0, have font family of serif, and have ice.jpg as background image*/
+body
+{
+	margin: 0;
+    padding: 0;
+    font-family: serif;
+    background-image: url("images/ice.jpg");
+}
+
+/*makes all headings have justified alignment and a specific bottom padding*/
+h2, h3, h4, h5{
+	text-align:justify;
+    padding-bottom: 12.69px;
+}
+
+/*makes all heading have a specific font size*/
+h2{
+    font-size:35px
+}
+
+h3{
+	font-size:30.5px;
+}
+
+h4{
+    font-size: 27px;
+}
+
+h5{
+    font-size:23px;
+}
+
+/* So that all p tags have a justified alignment, a font family of Roboto, and a specific font size and line height*/
+p
+{
+    text-align:justify;
+	font-size: 16.75pt;
+	line-height : 32.25pt;
+    font-family: 'Roboto', sans-serif;
+	
+}
+
+/*makes all the content have a padding of 20px*/
+.content{
+    padding:20px;
+}
+
+
+/*navigation bar*/
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.title {
+	font-size: 2.25rem;
+    margin: 14px;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+	font-size:1.4rem;
+    display: flex;
+    margin: 5px;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+
+/*images*/
+
+.img-right {
+    float:right; 
+}
+
+.img-border{
+    border: 4.5px solid rgb(89, 171, 226);
+}
+
+#st_patsleft {
+    float:left
+}
+  
+/*captions*/
+
+figcaption {
+	font-size: 15px;
+	line-height: 17px;
+	text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#historycap {
+    margin-right:40%;
+}
+
+#arenascap {
+    margin-right:0;
+}
+
+#st_patscap {
+    text-align: left;
+    margin-left: 30%;
+}
+
+/*validators*/
+
+.validators {
+    position: relative;
+    top:69px;
+}
+
+/*sources*/
+.source {
+    font-size: 13.69pt;
+	line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#margin_source {
+    margin-top:7%;
+}
+
+
+/* keeps formatting in place*/
+#Current-Players {
+    margin-top:40%;
+}
+
+.top {
+    font-size: 20px;
+    text-align: center;
+    margin:5%;
+}
